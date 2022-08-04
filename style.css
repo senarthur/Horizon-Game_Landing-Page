@@ -131,7 +131,7 @@ footer {
 
 @media (max-width: 630px) {
     * {
-        font-size: 95%;
+        font-size: 92%;
     }
 
     header {
@@ -139,7 +139,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        gap: 30px;
+        gap: 20px;
     }
 
     nav {
@@ -150,10 +150,6 @@ footer {
         display: block;
         font-size: 1.4em;
         z-index: 2;
-    }
-
-    .fa-bars:hover {
-        color: #000;
     }
 }
 
@@ -186,5 +182,16 @@ footer {
 @media (max-width: 1125px) {
     footer {
         text-align: left;
+    }
+}
+
+@media (max-height: 450px) {
+    body {
+        height: 150vh;
+        overflow: visible;
+    }
+
+    .aloy {
+        bottom: -50%;
     }
 }
